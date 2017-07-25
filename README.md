@@ -25,9 +25,11 @@
 `npm install url-loader --save-dev //把较小的图片转换成base64的字符串内嵌在生成的文件里`<br>
 
 * 开发环境依赖 plugin<br>
-`npm install babel-plugin-transform-runtime --save-dev //比babel-polyfill更灵活`
-`npm install extract-text-webpack-plugin --save-dev //ExtractTextPlugin：分离CSS和JS文件`
-`npm install html-webpack-plugin —save-dev//webpack打包生成html页的插件`
+`npm install babel-plugin-transform-runtime --save-dev //比babel-polyfill更灵活`<br>
+`npm install extract-text-webpack-plugin --save-dev //ExtractTextPlugin：分离CSS和JS文件`<br>
+`npm install html-webpack-plugin —-save-dev //webpack打包生成html页的插件`<br>
+`npm install babel-plugin-transform-class-properties --save-dev //解析class中的properties，原来class中定义方法或者变量不可以写init = () => {}, 只能写成init(){}`<br>
+`npm install babel-plugin-transform-decorators-legacy --save-dev //代码中使用decorators要使用babel的插件，官方目前插件还不支持，使用第三方的`<br>
 
 * CSS<br>
 `npm install style-loader css-loader --save-dev`<br>
